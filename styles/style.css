@@ -1,11 +1,9 @@
 /* font section style  */
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-
-
 /* sared style  */
-noto_sarif{
-  font-family: "Inter", sans-serif;
+.noto_saris {
+  font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
@@ -24,22 +22,19 @@ body {
   font-style: normal;
   max-width: 1140px;
   margin: 0 auto;
-  background-color: #F5F7FC;
-
+  background-color: #f5f7fc;
 }
 /* navbar section style  */
 .nav_section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+
   margin-top: 20px;
-  
 }
-.logo_img img{
-     max-width: 135px; 
-     height: 71px;
-     
+.logo_img img {
+  max-width: 135px;
+  height: 71px;
 }
 nav ul {
   display: flex;
@@ -61,59 +56,126 @@ nav ul li a {
   color: rgb(0, 0, 0);
 }
 /* ALWAYS FRESH FLOWERS section  */
-.fresh_flowers{
-    display: flex;
-    margin-top: 176px;
-    align-items: end;
-    justify-content: space-between;
+.fresh_flowers {
+  display: flex;
+  margin-top: 176px;
+  align-items: end;
+  justify-content: space-between;
+}
+.alwayea_section h2 {
+  font-size: 4rem;
+  color: rgb(233, 90, 8);
+}
+
+.alwayea_section h2 span {
+  color: rgb(0, 0, 0);
+}
+.alwayea_section p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.3rem;
+}
+/* our plants section style  */
+.plants_section {
+  margin-top: 75px;
+}
+.plants_section h3 {
+  text-align: center;
+  font-size: 3.12rem;
+  margin-bottom: 15px;
+}
+.font_color {
+  color: rgb(233, 90, 8);
+}
+.plants_section p {
+  max-width: 888px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.37rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+.plants_img_section {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.plants_img{
+    text-align: center;
     
 }
-.alwayea_section h2{
-    font-size: 4rem; 
-    color: rgb(233, 90, 8);
-} 
-
-.alwayea_section h2 span{
-    color: rgb(0, 0, 0);
+.plants_img h4 {
+  font-size: 1.37rem;
+  font-weight: 500;
+  color: rgb(17, 17, 17);
+  margin: 10px 0;
 }
-.alwayea_section p{
- color: rgba(0, 0, 0, 0.5);
- font-size: 1.3rem;
+.plants_img span{
+  font-size: 1.37rem;
+  font-weight: 700;
+  color: rgb(17, 17, 17);
+  display: block;
 }
-
-
-
-
+.plants_img button{
+    color: white;
+    background-color: rgb(233, 90, 8);
+    padding:18px 90px;
+    margin: 30px 0;
+    border: none;
+}
 
 /* mobile section style  */
 
 @media screen and (max-width: 576px) {
- /* nav section style  */
-    .show_item {
+  /* nav section style  */
+  .show_item {
     display: none;
   }
-  
- 
-  .nav_section{
+
+  .nav_section {
     margin: 25px 16px;
   }
   /* ALWAYS FRESH FLOWERS section  */
-  .fresh_flowers{
+  .fresh_flowers {
     flex-direction: column-reverse;
   }
-  .alwayea_section h2{
+  .alwayea_section h2 {
     font-size: 1.5rem;
     max-width: 191px;
     line-height: 33px;
     padding-left: 20px;
+    margin-top: 35px;
+    margin-bottom: 15px;
   }
-  .alwayea_section p{
-    font-size: .87rem;
-   padding: 0 20px;
-
+  .alwayea_section p {
+    font-size: 0.87rem;
+    padding: 0 20px;
   }
   .alwayea_section h2 p {
-   
   }
- 
+  /* our plants section style  */
+  .plants_img_section{
+    grid-template-columns: repeat(2, 1fr);
+    gap: ;
+    
+  
+  }
+  .plants_section h3{
+    font-size: 1.5rem;
+  }
+  .plants_section p{
+    font-size: .87rem;
+  }
+  .plants_img{
+    padding: 20px;
+  }
+  .plants_img img{
+     max-width: 171px; 
+  }
+  .plants_img button{
+   padding: 20px 40px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+  .plants_img h4 {
+    margin: 10px 0;
+  }
 }
