@@ -1,0 +1,119 @@
+/* font section style  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+
+
+/* sared style  */
+noto_sarif{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* body section style  */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: #F5F7FC;
+
+}
+/* navbar section style  */
+.nav_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  margin-top: 20px;
+  
+}
+.logo_img img{
+     max-width: 135px; 
+     height: 71px;
+     
+}
+nav ul {
+  display: flex;
+  gap: 48px;
+  margin-top: 27px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(137, 135, 161);
+}
+.nav_color {
+  color: rgb(37, 36, 50);
+  font-weight: 700;
+}
+.nav_second_color {
+  color: rgb(0, 0, 0);
+}
+/* ALWAYS FRESH FLOWERS section  */
+.fresh_flowers{
+    display: flex;
+    margin-top: 176px;
+    align-items: end;
+    justify-content: space-between;
+    
+}
+.alwayea_section h2{
+    font-size: 4rem; 
+    color: rgb(233, 90, 8);
+} 
+
+.alwayea_section h2 span{
+    color: rgb(0, 0, 0);
+}
+.alwayea_section p{
+ color: rgba(0, 0, 0, 0.5);
+ font-size: 1.3rem;
+}
+
+
+
+
+
+/* mobile section style  */
+
+@media screen and (max-width: 576px) {
+ /* nav section style  */
+    .show_item {
+    display: none;
+  }
+  
+ 
+  .nav_section{
+    margin: 25px 16px;
+  }
+  /* ALWAYS FRESH FLOWERS section  */
+  .fresh_flowers{
+    flex-direction: column-reverse;
+  }
+  .alwayea_section h2{
+    font-size: 1.5rem;
+    max-width: 191px;
+    line-height: 33px;
+    padding-left: 20px;
+  }
+  .alwayea_section p{
+    font-size: .87rem;
+   padding: 0 20px;
+
+  }
+  .alwayea_section h2 p {
+   
+  }
+ 
+}
