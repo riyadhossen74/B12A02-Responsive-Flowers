@@ -13,7 +13,6 @@
 * {
   margin: 0;
   padding: 0;
-  
 }
 
 body {
@@ -99,9 +98,8 @@ nav ul li a {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
-.plants_img{
-    text-align: center;
-    
+.plants_img {
+  text-align: center;
 }
 .plants_img h4 {
   font-size: 1.37rem;
@@ -109,52 +107,113 @@ nav ul li a {
   color: rgb(17, 17, 17);
   margin: 10px 0;
 }
-.plants_img span{
+.plants_img span {
   font-size: 1.37rem;
   font-weight: 700;
   color: rgb(17, 17, 17);
   display: block;
 }
-.plants_img button{
-    color: white;
-    background-color: rgb(233, 90, 8);
-    padding:12px 88px;
-    margin: 30px 0;
-    border: none;
-    max-width: 270px;
+.plants_img button {
+  color: white;
+  background-color: rgb(233, 90, 8);
+  padding: 12px 88px;
+  margin: 30px 0;
+  border: none;
+  max-width: 270px;
 }
 /* flower plants section style  */
-.flower_plants{
-    display: flex;
-    gap: 110px;
-    margin-top: 120px;
-    position: relative;
+.flower_plants {
+  display: flex;
+  gap: 110px;
+  margin-top: 120px;
+  position: relative;
 }
-.plant_img{
+.plant_img {
   max-width: 50%;
 }
 
+.flower_text h4 {
+  font-size: 3.12rem;
+  line-height: 76px;
+  max-width: 400px;
+}
+.flower_text ul li {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.37rem;
+  padding: 25px 0;
+}
+.img_logo {
+  position: absolute;
+  top: -136px;
+  left: 355px;
+  width: 286px;
+}
+/* letes deals section style  */
+.latest_text{
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 90px;
+}
+.latest_text h2{
+font-size: 3.13rem;
+margin-bottom: 25px;
+}
+.latest_text p{
+max-width: 888px;
+margin: 0 auto;
+font-size: 1.37rem;
+}
+.cards {
+  display: flex;
+  gap: 25px;
+}
+.left_card{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 
- .flower_text h4{
-    font-size: 3.12rem;
-    line-height: 76px;
-    max-width: 400px;
-    
- }
- .flower_text ul li{
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 1.37rem;
-    padding: 25px 0;
- }
- .img_logo{
-    position: absolute;
-    top: -136px;
-    left: 355px;
-    width: 286px;
- }
+.right_card {
+  position: relative;
   
-   
+}
+.right_card img{
+  border-radius: 8px;
+  max-width: 753px;
+}
+.small_card {
+  position: relative;
+ 
+}
+.small_card img{
+  border-radius: 8px;
+}
+.text_card {
+  position: absolute;
+  top: 79px;
+  left: 90px;
+  text-align: center
+}
+.text_right{
+  top: 174px;
+  left: 194px;
+}
+#text{
+  font-size: 2.5rem;
+}
+#text_small{
+  font-size: 1.75rem;
+  
+}
 
+.text_card h3{
+  color: white;
+  font-size: 1.25rem;
+}
+.text_card a{
+  color: white;
+  
+}
 
 /* mobile section style  */
 
@@ -183,28 +242,25 @@ nav ul li a {
     font-size: 0.87rem;
     padding: 0 20px;
   }
-  
+
   /* our plants section style  */
-  .plants_img_section{
+  .plants_img_section {
     grid-template-columns: repeat(2, 1fr);
-    
-    
-  
   }
-  .plants_section h3{
+  .plants_section h3 {
     font-size: 1.5rem;
   }
-  .plants_section p{
-    font-size: .87rem;
+  .plants_section p {
+    font-size: 0.87rem;
   }
-  .plants_img{
+  .plants_img {
     padding: 20px;
   }
-  .plants_img img{
-     max-width: 171px; 
+  .plants_img img {
+    max-width: 171px;
   }
-  .plants_img button{
-   padding: 20px 40px;
+  .plants_img button {
+    padding: 20px 40px;
     margin-top: 30px;
     margin-bottom: 5px;
   }
@@ -212,27 +268,57 @@ nav ul li a {
     margin: 10px 0;
   }
   /* flower plants section style  */
-  .flower_plants{
+  .flower_plants {
     flex-direction: column;
-  margin-left: 10px;
-  gap: 50px;
+    margin-left: 10px;
+    gap: 50px;
   }
-  .img_logo{
+  .img_logo {
     display: none;
   }
-  .first_img{
+  .first_img {
     max-width: 400px;
-    
   }
- 
-  .flower_text ul li{
-    font-size: .87rem;
+
+  .flower_text ul li {
+    font-size: 0.87rem;
   }
-  .flower_text ul li{
+  .flower_text ul li {
     margin-left: 25px;
   }
-  .flower_text h4{
+  .flower_text h4 {
     font-size: 1.5rem;
     margin-left: 15px;
+  }
+  /* letes deals section style  */
+.latest_text{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.latest_text h2{
+  font-size: 1.5rem;
+}
+.latest_text p {
+  font-size: .87rem;
+}
+  .cards{
+    flex-direction: column;
+    
+  }
+  .right_card img{
+    width: 100%;
+  }
+  .left_card img{
+    width: 100%;
+  }
+  #text{
+    font-size: 1.25rem;
+  }
+  #text_small{
+    font-size: 1rem;
+  }
+  .text_right{
+    top: 100px;
+    left: 120px;
   }
 }
