@@ -224,7 +224,9 @@ font-size: 1.37rem;
   background-image: url(../assets/news-letter-bg.png);
   background-size: cover;
   height: 533px;
-  margin: 100px auto;
+  margin: 0px auto;
+  margin-top: 50px;
+  margin-bottom: 25px;
   
 }
 .form label{
@@ -248,13 +250,49 @@ font-size: 1.37rem;
   background-color: rgb(233, 90, 8);
   border: none;
 }
+/* footer  */
+footer{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.all_section{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.footer_img{
+  max-width: 359px;
+}
+.first_nav ul li {
+  list-style: none;
+}
+.first_nav  ul li a{
+  text-decoration: none;
+  color: rgb(107, 114, 128);
+  line-height: 52px;
+}
+.second_nav ul li {
+  list-style: none;
+}
+.second_nav ul li a {
+  text-decoration: none;
+  color: rgb(107, 114, 128);
+   line-height: 52px;
+  
+}
+.socal_link img{
+  margin: 0 10px;
+}
+
   
 
 
 
 /* mobile section style  */
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   /* nav section style  */
   .show_item {
     display: none;
@@ -386,4 +424,10 @@ font-size: 1.37rem;
   #submit{
     padding: 15px 20px;
   }
+  /* footer  */
+  .all_section{
+    flex-direction: column;
+    padding-left: 30px;
+  }
+  
 }
