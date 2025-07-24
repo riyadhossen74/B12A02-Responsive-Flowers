@@ -13,6 +13,12 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+.contanir{
+   max-width: 1140px;
+  margin: 0 auto;
+  background-color: #f5f7fc;
 }
 
 body {
@@ -20,9 +26,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  max-width: 1140px;
-  margin: 0 auto;
-  background-color: #f5f7fc;
+ 
 }
 /* navbar section style  */
 .nav_section {
@@ -214,6 +218,39 @@ font-size: 1.37rem;
   color: white;
   
 }
+/* joind the colorgful section style  */
+.join_section{
+  max-width: 1440px;
+  background-image: url(../assets/news-letter-bg.png);
+  background-size: cover;
+  height: 533px;
+  margin: 100px auto;
+  
+}
+.form label{
+  font-size: 3.12rem;
+  color: white;
+  display: block;
+  text-align: center; 
+}
+.colorful {
+ text-align: center;
+ padding-top: 200px;
+}
+#email{
+ padding: 10px 160px;
+ border: none;
+ margin-top: 10px;
+
+}
+#submit{
+  padding: 10px 30px;
+  background-color: rgb(233, 90, 8);
+  border: none;
+}
+  
+
+
 
 /* mobile section style  */
 
@@ -237,6 +274,9 @@ font-size: 1.37rem;
     padding-left: 20px;
     margin-top: 35px;
     margin-bottom: 15px;
+  }
+  .alwayea_section img{
+    width: 100%;
   }
   .alwayea_section p {
     font-size: 0.87rem;
@@ -291,7 +331,14 @@ font-size: 1.37rem;
     margin-left: 15px;
   }
   /* letes deals section style  */
-.latest_text{
+.small_card img{
+  padding: 10px;
+}
+.right_card img{
+  padding: 10px;
+}
+
+  .latest_text{
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -320,5 +367,23 @@ font-size: 1.37rem;
   .text_right{
     top: 100px;
     left: 120px;
+  }
+  /* joind the colorful section  */
+  .join_section{
+    height: 275px;
+    padding-left: 10px;
+   
+  }
+  .form label{
+    font-size: 1.25rem;
+  }
+  .colorful{
+    padding-top: 107px;
+  }
+  #email{
+    padding: 15px 40px;
+  }
+  #submit{
+    padding: 15px 20px;
   }
 }
