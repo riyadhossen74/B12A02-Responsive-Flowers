@@ -15,8 +15,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-.contanir{
-   max-width: 1140px;
+.contanir {
+  max-width: 1140px;
   margin: 0 auto;
   background-color: #f5f7fc;
 }
@@ -26,7 +26,6 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
- 
 }
 /* navbar section style  */
 .nav_section {
@@ -153,25 +152,25 @@ nav ul li a {
   width: 286px;
 }
 /* letes deals section style  */
-.latest_text{
+.latest_text {
   text-align: center;
   margin-top: 70px;
   margin-bottom: 90px;
 }
-.latest_text h2{
-font-size: 3.13rem;
-margin-bottom: 25px;
+.latest_text h2 {
+  font-size: 3.13rem;
+  margin-bottom: 25px;
 }
-.latest_text p{
-max-width: 888px;
-margin: 0 auto;
-font-size: 1.37rem;
+.latest_text p {
+  max-width: 888px;
+  margin: 0 auto;
+  font-size: 1.37rem;
 }
 .cards {
   display: flex;
   gap: 25px;
 }
-.left_card{
+.left_card {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -179,47 +178,43 @@ font-size: 1.37rem;
 
 .right_card {
   position: relative;
-  
 }
-.right_card img{
+.right_card img {
   border-radius: 8px;
   max-width: 753px;
 }
 .small_card {
   position: relative;
- 
 }
-.small_card img{
+.small_card img {
   border-radius: 8px;
 }
 .text_card {
   position: absolute;
   top: 79px;
   left: 90px;
-  text-align: center
+  text-align: center;
 }
-.text_right{
+.text_right {
   top: 174px;
   left: 194px;
 }
-#text{
+#text {
   font-size: 2.5rem;
 }
-#text_small{
+#text_small {
   font-size: 1.75rem;
-  
 }
 
-.text_card h3{
+.text_card h3 {
   color: white;
   font-size: 1.25rem;
 }
-.text_card a{
+.text_card a {
   color: white;
-  
 }
 /* joind the colorgful section style  */
-.join_section{
+.join_section {
   max-width: 1440px;
   background-image: url(../assets/news-letter-bg.png);
   background-size: cover;
@@ -227,48 +222,46 @@ font-size: 1.37rem;
   margin: 0px auto;
   margin-top: 50px;
   margin-bottom: 25px;
-  
 }
-.form label{
+.form label {
   font-size: 3.12rem;
   color: white;
   display: block;
-  text-align: center; 
+  text-align: center;
 }
 .colorful {
- text-align: center;
- padding-top: 200px;
+  text-align: center;
+  padding-top: 200px;
 }
-#email{
- padding: 10px 160px;
- border: none;
- margin-top: 10px;
-
+#email {
+  padding: 10px 160px;
+  border: none;
+  margin-top: 10px;
 }
-#submit{
+#submit {
   padding: 10px 30px;
   background-color: rgb(233, 90, 8);
   border: none;
 }
 /* footer  */
-footer{
+footer {
   max-width: 1440px;
   margin: 0 auto;
 }
-.all_section{
+.all_section {
   display: flex;
   justify-content: space-between;
   max-width: 1140px;
   margin: 0 auto;
   margin-top: 50px;
 }
-.footer_img{
+.footer_img {
   max-width: 359px;
 }
 .first_nav ul li {
   list-style: none;
 }
-.first_nav  ul li a{
+.first_nav ul li a {
   text-decoration: none;
   color: rgb(107, 114, 128);
   line-height: 52px;
@@ -279,16 +272,11 @@ footer{
 .second_nav ul li a {
   text-decoration: none;
   color: rgb(107, 114, 128);
-   line-height: 52px;
-  
+  line-height: 52px;
 }
-.socal_link img{
+.socal_link img {
   margin: 0 10px;
 }
-
-  
-
-
 
 /* mobile section style  */
 
@@ -313,7 +301,7 @@ footer{
     margin-top: 35px;
     margin-bottom: 15px;
   }
-  .alwayea_section img{
+  .alwayea_section img {
     width: 100%;
   }
   .alwayea_section p {
@@ -369,65 +357,62 @@ footer{
     margin-left: 15px;
   }
   /* letes deals section style  */
-.small_card img{
-  padding: 10px;
-}
-.right_card img{
-  padding: 10px;
-}
+  .small_card img {
+    padding: 10px;
+  }
+  .right_card img {
+    padding: 10px;
+  }
 
-  .latest_text{
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-.latest_text h2{
-  font-size: 1.5rem;
-}
-.latest_text p {
-  font-size: .87rem;
-}
-  .cards{
+  .latest_text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .latest_text h2 {
+    font-size: 1.5rem;
+  }
+  .latest_text p {
+    font-size: 0.87rem;
+  }
+  .cards {
     flex-direction: column;
-    
   }
-  .right_card img{
+  .right_card img {
     width: 100%;
   }
-  .left_card img{
+  .left_card img {
     width: 100%;
   }
-  #text{
+  #text {
     font-size: 1.25rem;
   }
-  #text_small{
+  #text_small {
     font-size: 1rem;
   }
-  .text_right{
+  .text_right {
     top: 100px;
     left: 120px;
   }
   /* joind the colorful section  */
-  .join_section{
+  .join_section {
     height: 275px;
     padding-left: 10px;
-   
   }
-  .form label{
+  .form label {
     font-size: 1.25rem;
   }
-  .colorful{
+  .colorful {
     padding-top: 107px;
   }
-  #email{
+  #email {
     padding: 15px 40px;
   }
-  #submit{
+  #submit {
     padding: 15px 20px;
   }
   /* footer  */
-  .all_section{
+  .all_section {
     flex-direction: column;
     padding-left: 30px;
   }
-  
 }
